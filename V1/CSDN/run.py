@@ -52,6 +52,7 @@ class csdnSpider(object):
         item["table"]="p_news_csdn"
         item["created_at"]=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
         self.LOG.info(item) #打印日志
+        print(item)
         self.db.process_item(item) #入mysql
 
     def getXpath(self,link):

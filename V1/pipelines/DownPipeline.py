@@ -14,7 +14,6 @@ class spidersPipeline(object): #1、入库
 
     def process_item(self, item):
         sql = getInsertSql(item["table"], item)
-        print(sql)
         try:
             self.lock.acquire()
             self.pool.insert_one(sql)
