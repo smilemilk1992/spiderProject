@@ -4,6 +4,8 @@
 * V1(项目一)
     * CSDN（主函数)
     * util（工具类）
+    * LOG_CFG (日志模块)
+    * pipeline （入库模块)
 
 # 项目一
 * CSDN博客数据
