@@ -11,6 +11,7 @@
 * CSDN博客数据
     * 网站：https://blog.csdn.net/forezp
     * 字段需求
+        * 链接（String）
         * 标题  （String）
         * 发布时间 (yyyy-mm-dd hh:mm:ss)
         * 文章内容（html）  （String）
